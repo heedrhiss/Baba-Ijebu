@@ -7,7 +7,6 @@ const guessInput= document.querySelector('.number'),
     game=       document.querySelector('.container'),
     guessBtn=   document.querySelector('.validate'),
     message =   document.querySelector('.message'),
-    // minNum = document.querySelector('.min-num'),
     maxNum = document.querySelector('.max-num');
 
 guessBtn.addEventListener('click', ()=>{
